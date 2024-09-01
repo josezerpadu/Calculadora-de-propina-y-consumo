@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Calculadora de Propina y Consumo con React y TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación permite a los usuarios agregar y eliminar órdenes de un menú, calcular propinas, y visualizar el total del pedido. Desarrollada con React y TypeScript, es una herramienta útil para restaurantes o consumidores que desean calcular sus gastos de manera rápida y precisa.
 
-Currently, two official plugins are available:
+## Características Principales
+- Agregar y eliminar órdenes del menú.
+- Mostrar la cantidad de productos agregados.
+- Calcular la propina, con una opción de propina mínima del 10% para activar el botón de guardar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
+- **React** con **TypeScript**
+- **Vite** como entorno de desarrollo
+- **Tailwind CSS** para el diseño
+- **React Icons** para iconografía
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Cómo Usar la Aplicación
+1. Selecciona los items del menú para agregar a la orden.
+2. Ingresa el porcentaje de propina deseado.
+3. Guarda la orden para ver el resumen final.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Autor
+**[Jose Reynaldo Zerpa](www.linkedin.com/in/jose-reynaldo-zerpa-597991266)** - Desarrollador Web Frontend.
